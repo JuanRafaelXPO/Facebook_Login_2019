@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Facebook</title>
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="max-width">
+            <div id="logo">
+                <img src="./Assets/logofacebook.png" alt="Facebook">
+            </div>
+            <form id="login" action="#">
+
+                <div class="user">
+                    <div>
+                        <label for="email">Email</label>
+                    </div>
+                    <input type="email" id="email">
+                </div>
+                
+                <div class="user">
+                    <div>
+                        <label for="password">Senha</label>
+                    </div>
+                    <input type="password" id="password">
+                </div>
+
+                <div class="user-submit">
+                    <div>
+                        <label></label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                </div>
+
+                <div id="help">
+                    <div id="lembrar">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Lembrar-se de mim</label>
+                    </div>
+    
+                    <div id="esq-senha">
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+                </div>
+            </form>
+            <div class="clear"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="max-width">
+            <div id="content">
+                <h3>No Facebook você pode se conectar e compartilhar o que quiser com quem é importante em sua vida.</h3>
+
+                <img src="./Assets/mapa.png">
+
+                <div id="links">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/juan-rafael-xavier-pinheiro-de-oliveira-13282a202/" target="_blank">
+                                    <img src="./Assets/Logo LinkedIn.png" alt="LinkedIn">
+                                    <span>Juan Rafael</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/JuanRafaelXPO" target="_blank">
+                                    <img src="./Assets/Logo Github.png" alt="GitHub">
+                                    <span>Juan Rafael</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div id="login-mobile">
+                <form action="#">
+                    <div class="user">
+                        <div>
+                            <label for="email">Email</label>
+                        </div>
+                        <input type="email" id="email">
+                    </div>
+                    
+                    <div class="user">
+                        <div>
+                            <label for="password">Senha</label>
+                        </div>
+                        <input type="password" id="password">
+                    </div>
+    
+                    <div class="user-submit">
+                        <div>
+                            <label></label>
+                        </div>
+                        <input type="submit" value="Entrar">
+                    </div>
+
+                    <div id="esq-senha">
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+                </form>
+
+                <div id="links">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/juan-rafael-xavier-pinheiro-de-oliveira-13282a202/" target="_blank">
+                                    <img src="./Assets/Logo LinkedIn.png" alt="LinkedIn">
+                                    <span>Juan Rafael</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/JuanRafaelXPO" target="_blank">
+                                    <img src="./Assets/Logo Github.png" alt="GitHub">
+                                    <span>Juan Rafael</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div id="register">
+                <h2>Cadastre-se</h2>
+                <p>É gratuito e sempre será</p>
+
+                <form action="#">
+
+                    
+                    <div id="nome_sobrenome" class="input_container">
+                        <input type="text" placeholder="Seu nome">
+
+                        <input type="text" placeholder="Seu sobrenome">
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="input_container input_width">
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="input_container input_width">
+                        <input type="email" placeholder="Confirme seu mail">
+                    </div>
+
+                    <div class="input_container input_width">
+                        <input type="password" placeholder="Senha">
+                    </div>
+
+                    <div id="date">
+                        <h3>Data de nascimento</h3>
+
+                        <div id="date-block">
+                            <div id="birthday">
+                                <input type="date" placeholder="dd/mm/aaaa">
+                            </div>
+    
+                            <div id="span_date">
+                                <span><a href="#">Por que devo informar minha data de nascimento?</a></span>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                    </div>
+
+                    <div id="genery">
+                        <div class="space_check">
+                            <input type="radio" name="genero" id="feminino">
+                            <label for="feminino">Feminino</label>
+                        </div>
+
+                        <div class="space_check">
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                    </div>
+
+                    <div id="terms">
+                        <span>
+                            Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a> e que você leu nossa <a href="#">Política de uso de dados</a>, incluindo nosso <a href="#">Uso de cookies</a>.
+                        </span>
+                    </div>
+
+                    <div id="signin">
+                        <input type="submit" value="Cadastre-se">
+                    </div>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </main>
+</body>
+</html>
